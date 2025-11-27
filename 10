@@ -1,0 +1,12 @@
+s/w to download 
+1)java latest version
+2)owasp dependency checker and select the commandline option
+3)nxparser
+next step go to command line and select the run as administrator
+and follow the command below:
+   ->cd C:\dependency-check(copy the path of dependency-check)
+   ->cd bin
+   ->dependency-check.bat -h
+   ->dependency-check.bat --scan \C:\nxparser-master\**\*.jar (nx parser path)
+   for o/p:
+      go the dependency-check and select the bin and the report will be generated
